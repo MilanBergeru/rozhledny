@@ -44,7 +44,7 @@
                #Hlavni{display: flex; align-items: flex-start; width:100%; float:left; background-color:#FFFF99;}
                #Navigace {
 		       	flex-grow: 1; /* Roztáhne navigaci na plnou šířku prostoru */
-  			padding-right: 20px; /* Odsazení mezi navigací a obsahem */
+  			padding-right: 10px; /* Odsazení mezi navigací a obsahem */
 			background-color:#FFFF99;}
                                                       
                     /*        ladìní: snížení margin-top z pùvodních 42px* z Navig-ul vyndáno margin-left:15 px; */
