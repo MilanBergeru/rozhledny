@@ -17,7 +17,7 @@
                  
                a:hover {background-color:blue; color:white;  } 
            
-              #text-kraj {font-family:"Arial";font-size:113%;text-align:justify;margin-top:20px; padding:5px 100px 5px 50px; }
+              #text-kraj {max-width: 100%;padding:10px;font-family:"Arial";font-size:113%;text-align:justify;margin-top:20px;}
               
               #text-kraj a  {  font-weight:bold; font-size:95%; color:blue  }
               
@@ -122,15 +122,9 @@
         .odsadit2 {
             max-width: 100%;
             height: auto;
-        }
-        
-        #text-kraj {
-            max-width: 100%;
-            padding: 10px;
-        }
+        }     
+       
     
-  .odsadit {margin-left:5px}
-  .odsadit2 {margin-left:15px}
   .posledni {margin-right:12px}
                                  /*
   @media screen and (max-width: 768px) { #Obal {width: 760px;}    
