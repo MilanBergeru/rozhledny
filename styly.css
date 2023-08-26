@@ -134,12 +134,4 @@
            
        
     
-  .posledni {margin-right:12px}
-                                 /*
- @media (max-width: 768px) {
-            .prvni {
-                flex-wrap: nowrap; /* Prevent wrapping on smaller screens */
-                overflow-x: auto; /* Add horizontal scroll if necessary */
-            }
-        }         }
-          }     */                                   
+  .posledni {margin-right:12px}                                           
