@@ -113,9 +113,15 @@
           .prouzek   { margin:0; padding:0; margin-top:22px; background-color:rgb(102,204,255); display:block; height: 35px; padding-top:12px; text-align:center;   font-weight:bold; font-size:140%; letter-spacing:1.5px; margin-left:-15px; margin-right:-10px  }
  
  strong {font-size:98%}
- 
-  /* Add responsive styles here */
-        .prvni {
+ .prvni img {
+      max-width: 100%;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    @media (max-width: 768px) {
+      /* Adjust layout for screens up to 768px wide */
+      .prvni {
         flex-wrap: wrap; /* Allow images to wrap on small screens */
         justify-content: center; /* Center images within the container */
       }
