@@ -129,8 +129,9 @@
     }
         .odsadit,
         .odsadit2 {
-            max-width: 60px; /* Adjust the maximum width as needed */
-            height: auto;  
+            max-width: 100%;
+            height: auto;
+        }
        
     
   .posledni {margin-right:12px}
