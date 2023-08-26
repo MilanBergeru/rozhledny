@@ -115,10 +115,10 @@
  strong {font-size:98%}
  
   .prvni {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-}
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            overflow-x: auto; /* Add horizontal scroll if necessary */
         }
         
         .odsadit,
