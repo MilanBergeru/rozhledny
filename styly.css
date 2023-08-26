@@ -41,8 +41,11 @@
         #Zahlavi-kraj{width:104%; margin-left:-20px; height:200px; background-color:rgb(224,112,127)}
                
                /*FFFF99 = béžová */
-               #Hlavni{width:100%; float:left; background-color:#FFFF99;}
-               #Navigace{margin:0; padding:0; float:left; background-color:#FFFF99;margin-left:8px; margin-top:20px; }
+               #Hlavni{display: flex; width:100%; float:left; background-color:#FFFF99;}
+               #Navigace {
+		       	flex-grow: 1; /* Roztáhne navigaci na plnou šířku prostoru */
+  			padding-right: 20px; /* Odsazení mezi navigací a obsahem */
+			margin:0; padding:0; float:left; background-color:#FFFF99;margin-left:8px; margin-top:20px; }
                                                       
                     /*        ladìní: snížení margin-top z pùvodních 42px* z Navig-ul vyndáno margin-left:15 px; */
     #Navigace ul{ margin:0; padding:0; list-style-type:none;  margin-top:20px}
@@ -74,7 +77,9 @@
 
 #Navigace a:hover {      	background-color: #FF3366;     	color: white;  }
                
-              #Obsah{width:75%; margin:15px 30px 0px 255px; background-color:#FFFF99}     
+              #Obsah {
+		      flex-grow: 2; /* Roztáhne obsah na plnou šířku prostoru */ 
+		      margin:15px 30px 0px 255px; background-color:#FFFF99}     
                 /* horní - pravý - spodní - levý ladìní - procentní šíøka 75 % se zobrazila pouze v Exploreru, proto zmìnìno na pevnou šíøku 720 px*/
                #Zapati{width:108%;background-color:#FF6699;float:left;text-align:center;padding-top:8px;padding-bottom:15px; margin-bottom:0px}
                
