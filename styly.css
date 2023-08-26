@@ -42,7 +42,7 @@
                
                /*FFFF99 = béžová */
                #Hlavni{width:100%; float:left; background-color:#FFFF99;}
-               #Navigace{margin:0; padding:-10px; float:left; background-color:#FFFF99;margin-left:8px;}
+               #Navigace{margin:-10px; padding:0; float:left; background-color:#FFFF99;margin-left:8px;}
                                                       
                     /*        ladìní: snížení margin-top z pùvodních 42px* z Navig-ul vyndáno margin-left:15 px; */
     #Navigace ul{ margin:0; padding:0; list-style-type:none;  margin-top:20px}
