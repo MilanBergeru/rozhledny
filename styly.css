@@ -128,18 +128,7 @@
             max-width: 100%;
             height: auto;
         }
-        
-        .prvni img {
-            max-width: 100%; /* Ensure images don't exceed their parent container */
-            height: auto;
-            margin-right: 5px; /* Add spacing between images */
-        }
-    }
-        .odsadit,
-        .odsadit2 {
-            max-width: 100%;
-            height: auto;
-        }
+           
        
     
   .posledni {margin-right:12px}
