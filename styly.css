@@ -113,9 +113,8 @@
  
   .prvni {
         display: flex;
-  	flex-wrap: wrap;
-  	height: 400px;
-  	align-content: space-between;
+        justify-content: center;
+        gap: 10px;
 }
         }
         
