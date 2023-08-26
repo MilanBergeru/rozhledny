@@ -117,15 +117,13 @@
   .prvni {
             display: flex;
             justify-content: center;
-            gap: 10px;
-            overflow-x: auto; /* Add horizontal scroll if necessary */
-        }
+            gap: 5px;
+            overflow: hidden; /* Hide any overflow content */
         
         .odsadit,
         .odsadit2 {
-            max-width: 100%;
-            height: auto;
-        }     
+            max-width: 60px; /* Adjust the maximum width as needed */
+            height: auto;  
        
     
   .posledni {margin-right:12px}
