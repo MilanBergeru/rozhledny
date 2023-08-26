@@ -115,15 +115,22 @@
  strong {font-size:98%}
 
 .prvni {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 10px;
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px; /* Zajištění dostatečného místa pro horizontální posuvník */
+}
+
+.prvni img {
+  flex-shrink: 0;
+  width: 120px;
+  height: auto;
+  margin-right: 10px;
 }
 
 /* Upravit styly pro mobilní zařízení */
 @media (max-width: 600px) {
-  .prvni {
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  .prvni img {
+    width: 80px;
   }
 }
 
