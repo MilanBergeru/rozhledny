@@ -115,16 +115,15 @@
  strong {font-size:98%}
  
   /* Add responsive styles here */
-         /* Add responsive styles here */
         .prvni {
-      display: flex; /* Use flexbox to align images in a row */
-      flex-wrap: nowrap; /* Prevent images from wrapping to the next line */
-    }
+        flex-wrap: wrap; /* Allow images to wrap on small screens */
+        justify-content: center; /* Center images within the container */
+      }
 
-    .prvni img {
-      max-width: 100%; /* Make sure images don't exceed the container width */
-      height: auto; /* Maintain aspect ratio */
-      margin-right: 10px; /* Add spacing between images */
+      .prvni img {
+        margin-right: 10px;
+        margin-bottom: 10px; /* Add spacing between rows */
+      }
     }
 
         .odsadit,
