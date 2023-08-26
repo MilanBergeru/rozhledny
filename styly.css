@@ -17,10 +17,7 @@
                  
                a:hover {background-color:blue; color:white;  } 
            
-              #text-kraj  #text-kraj {
-            max-width: 100%;
-            padding: 10px;
-        }
+              #text-kraj {font-family:"Arial";font-size:113%;text-align:justify;margin-top:20px; padding:5px 100px 5px 50px; }
               
               #text-kraj a  {  font-weight:bold; font-size:95%; color:blue  }
               
@@ -41,7 +38,7 @@
                #Zahlavi{width:100%; height:360px; background-color:#FF6699; padding:0; padding-bottom:10px           }
                
                /* tmavì rùžový proužek v záhlaví krajù */
-        #Zahlavi-kraj{width:100%; height:200px; background-color:rgb(224,112,127)}
+        #Zahlavi-kraj{width:104%; margin-left:-20px; height:200px; background-color:rgb(224,112,127)}
                
                /*FFFF99 = béžová */
                #Hlavni{width:100%; float:left; background-color:#FFFF99;}
@@ -113,33 +110,43 @@
           .prouzek   { margin:0; padding:0; margin-top:22px; background-color:rgb(102,204,255); display:block; height: 35px; padding-top:12px; text-align:center;   font-weight:bold; font-size:140%; letter-spacing:1.5px; margin-left:-15px; margin-right:-10px  }
  
  strong {font-size:98%}
-
-.prvni {
+ 
+  .prvni {
   display: flex;
-  justify-content: center; /* Zarovnání na střed */
+  justify-content: center; /* Zarovnání na střed */ 
 }
 
 .prvni img {
   flex-shrink: 0;
   width: 120px;
-  height: auto;
-  margin-right: 10px;
+  height: auto;  
 }
 
 /* Upravit styly pro mobilní zařízení */
 @media (max-width: 600px) {
   .prvni {
     justify-content: flex-start; /* Zarovnání doleva */
-    overflow-x: auto; /* posuv v případě přesahu */
+    overflow-x: auto;
   }
-}
-
-        .odsadit,
-        .odsadit2 {
-            max-width: 100%;
-            height: auto;
-        }
-           
-       
-    
-  .posledni {margin-right:12px}                                           
+ }
+  .odsadit {margin-left:5px}
+  .odsadit2 {margin-left:15px}
+  .posledni {margin-right:12px}
+                                 /*
+  @media screen and (max-width: 768px) { #Obal {width: 760px;}    
+                                         #Obal-kraj {width: 760px;}    
+                                        #Zahlavi {width: 760px;}    
+                                         #Zahlavi-kraj {width: 760px;}    
+                                          #Hlavni{width: 760px;}    
+                                            #Zapati {width: 760px;}    
+                                             #Zahlavi {width: 760px;}    
+                                            #Obsah{width: 570px;}          }
+                                            
+  @media screen and (max-width: 600px) { #Obal {width: 592px;}    
+                                         #Obal-kraj {width: 592px;}    
+                                        #Zahlavi {width: 592px;}    
+                                         #Zahlavi-kraj {width: 592px;}    
+                                          #Hlavni{width: 592px;}    
+                                            #Zapati {width: 592px;}    
+                                             #Zahlavi {width: 592px;}    
+                                            #Obsah{width: 450px;}          }     */                                   
