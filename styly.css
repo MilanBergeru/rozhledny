@@ -17,7 +17,10 @@
                  
                a:hover {background-color:blue; color:white;  } 
            
-              #text-kraj {max-width: 100%;padding:10px;font-family:"Arial";font-size:113%;text-align:justify;margin-top:20px;}
+              #text-kraj  #text-kraj {
+            max-width: 100%;
+            padding: 10px;
+        }
               
               #text-kraj a  {  font-weight:bold; font-size:95%; color:blue  }
               
