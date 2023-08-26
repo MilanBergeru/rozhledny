@@ -112,10 +112,11 @@
  strong {font-size:98%}
  
   .prvni {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
+        display: flex;
+  	flex-wrap: wrap;
+  	height: 400px;
+  	align-content: space-between;
+}
         }
         
         .odsadit,
