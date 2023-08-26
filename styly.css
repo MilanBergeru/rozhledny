@@ -23,7 +23,7 @@
               
         #text-kraj a:hover {background-color:blue; color:white;  } 
               
-              h3 {padding: 25px 0 0 0; font-size:150%;color:rgb(102,0,255); margin:0; margin-top:15px; margin-left:15px; letter-spacing:3px; word-spacing:2px; text-align: center; margin-bottom:5px}
+               h3 {padding: 25px 0 0 0; font-size:150%;color:rgb(102,0,255); margin-left:15px; letter-spacing:3px; word-spacing:2px; text-align: center; margin-bottom:-15px} 
                
   em {font-size:95%; margin-left:15px; font-style:italic;  }
   
@@ -41,11 +41,8 @@
         #Zahlavi-kraj{width:104%; margin-left:-20px; height:200px; background-color:rgb(224,112,127)}
                
                /*FFFF99 = béžová */
-               #Hlavni{display: flex; align-items: flex-start; width:100%; float:left; background-color:#FFFF99;}
-               #Navigace {
-		       	flex-grow: 1; /* Roztáhne navigaci na plnou šířku prostoru */
-  			padding-right: 10px; /* Odsazení mezi navigací a obsahem */
-			background-color:#FFFF99;}
+               #Hlavni{width:100%; float:left; background-color:#FFFF99;}
+               #Navigace{margin:0; padding:0; float:left; background-color:#FFFF99;margin-left:8px; margin-top:20px; }
                                                       
                     /*        ladìní: snížení margin-top z pùvodních 42px* z Navig-ul vyndáno margin-left:15 px; */
     #Navigace ul{ margin:0; padding:0; list-style-type:none;  margin-top:20px}
@@ -59,12 +56,13 @@
 #Navigace li.odkaz2 {        	padding-left: 15px;    	padding-right: 5px;       	color: blue  }
                       
 #Navigace li.soucet { 	color: rgb(0,0,102);    	font-weight: bold;    	letter-spacing: 1px;
-	font-size: 99%;      	padding-left: 15px;     	width: 221px;   }
+	font-size: 99%;      	padding-left: 15px;     	width: 221px;           }
   
 #Navigace li.soucet1 { 	border-bottom: 1px solid;   	color: rgb(0,0,102);    	font-weight: bold;
 	letter-spacing: 1px;   	font-size: 99%;       	padding-left: 10px;     	width: 226px;             }
   
-#Navigace li.Veze4 {  	font-weight: bold;   	color: rgb(0,0,102);    	letter-spacing: 4px;   	background-color: #FF6699;   padding-left: 15px;    	padding-right: 10px;       	width: 211px;      	text-align: center;       }
+#Navigace li.Veze4 {  	font-weight: bold;   	color: rgb(0,0,102);    	letter-spacing: 4px;   	background-color: #FF6699;      
+       	padding-left: 15px;    	padding-right: 10px;       	width: 211px;      	text-align: center;       }
         
 #Navigace  li.Veze6 {       	font-weight: bold;       	color: rgb(0,0,102);     	letter-spacing: 7px;                          
        	background-color: #FF6699;  	padding-left: 15px;   	padding-right: 10px; 	width: 211px;    	text-align: center;  }
@@ -77,9 +75,7 @@
 
 #Navigace a:hover {      	background-color: #FF3366;     	color: white;  }
                
-              #Obsah {
-		      flex: 1; /* Roztáhne sloupec s obsahem na plnou šířku dostupného prostoru */
-		      margin:15px 30px 0px 255px; background-color:#FFFF99}     
+              #Obsah{width:75%; margin:15px 30px 0px 255px; background-color:#FFFF99}     
                 /* horní - pravý - spodní - levý ladìní - procentní šíøka 75 % se zobrazila pouze v Exploreru, proto zmìnìno na pevnou šíøku 720 px*/
                #Zapati{width:108%;background-color:#FF6699;float:left;text-align:center;padding-top:8px;padding-bottom:15px; margin-bottom:0px}
                
@@ -136,7 +132,7 @@ width: 120px;
 .prvni img {
   margin-left:10px 
 }
- }
+ } 
   .odsadit {margin-left:5px}
   .odsadit2 {margin-left:15px}
   .posledni {margin-right:12px}
