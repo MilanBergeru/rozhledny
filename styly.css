@@ -116,9 +116,15 @@
  
   .prvni {
             display: flex;
-            justify-content: center;
-            gap: 5px;
-            overflow: hidden; /* Hide any overflow content */
+            overflow-x: auto; /* Allow horizontal scrolling if needed */
+            white-space: nowrap; /* Prevent wrapping */
+        }
+
+        .prvni img {
+            max-width: 100%; /* Ensure images don't exceed their parent container */
+            height: auto;
+            margin: 0 5px; /* Add spacing between images */
+        }
         
         .odsadit,
         .odsadit2 {
