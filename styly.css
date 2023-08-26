@@ -117,8 +117,6 @@
 .prvni {
   display: flex;
   justify-content: center; /* Zarovnání na střed */
-  overflow-x: scroll;
-  padding-bottom: 10px; /* Zajištění dostatečného místa pro horizontální posuvník */
 }
 
 .prvni img {
@@ -132,7 +130,7 @@
 @media (max-width: 600px) {
   .prvni {
     justify-content: flex-start; /* Zarovnání doleva */
-    overflow-x: auto;
+    overflow-x: auto; /* posuv v případě přesahu */
   }
 }
 
