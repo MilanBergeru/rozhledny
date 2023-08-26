@@ -117,9 +117,7 @@
 }
 
 .prvni img {
-  flex-shrink: 0;
-  width: 120px;
-  height: auto;  
+  flex-shrink: 0;   
 }
 
 /* Upravit styly pro mobilní zařízení */
