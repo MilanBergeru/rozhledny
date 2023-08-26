@@ -117,11 +117,15 @@
   /* Add responsive styles here */
          /* Add responsive styles here */
         .prvni {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            overflow-x: auto; /* Add horizontal scroll if necessary */
-        }
+      display: flex; /* Use flexbox to align images in a row */
+      flex-wrap: nowrap; /* Prevent images from wrapping to the next line */
+    }
+
+    .prvni img {
+      max-width: 100%; /* Make sure images don't exceed the container width */
+      height: auto; /* Maintain aspect ratio */
+      margin-right: 10px; /* Add spacing between images */
+    }
 
         .odsadit,
         .odsadit2 {
