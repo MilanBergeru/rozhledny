@@ -41,7 +41,7 @@
                #Zahlavi{width:100%; height:360px; background-color:#FF6699; padding:0; padding-bottom:10px           }
                
                /* tmavì rùžový proužek v záhlaví krajù */
-        #Zahlavi-kraj{width:104%; margin-left:-20px; height:200px; background-color:rgb(224,112,127)}
+        #Zahlavi-kraj{width:100%; height:200px; background-color:rgb(224,112,127)}
                
                /*FFFF99 = béžová */
                #Hlavni{width:100%; float:left; background-color:#FFFF99;}
