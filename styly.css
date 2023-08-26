@@ -116,7 +116,8 @@
 
 .prvni {
   display: flex;
-  overflow-x: auto;
+  justify-content: center; /* Zarovnání na střed */
+  overflow-x: scroll;
   padding-bottom: 10px; /* Zajištění dostatečného místa pro horizontální posuvník */
 }
 
@@ -129,6 +130,11 @@
 
 /* Upravit styly pro mobilní zařízení */
 @media (max-width: 600px) {
+  .prvni {
+    justify-content: flex-start; /* Zarovnání doleva */
+    overflow-x: auto;
+  }
+
   .prvni img {
     width: 80px;
   }
