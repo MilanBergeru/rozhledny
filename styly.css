@@ -114,16 +114,11 @@
  
  strong {font-size:98%}
 
- .prvni {
-      display: flex;
-      flex-wrap: nowrap;
-      overflow-x: auto; /* Allow horizontal scrolling on small screens */
-    }
- .prvni img {
-      max-width: 100%;
-      height: auto;
-      margin-right: 10px;
-    }
+.prvni {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Tady si můžete upravit šířku sloupců podle potřeby */
+  grid-gap: 10px; /* Volitelné - mezery mezi obrázky */
+}
 
         .odsadit,
         .odsadit2 {
