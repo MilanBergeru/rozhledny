@@ -111,7 +111,24 @@
  
  strong {font-size:98%}
  
-  .prvni {text-align:center}
+  .prvni {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .odsadit,
+        .odsadit2 {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        #text-kraj {
+            max-width: 100%;
+            padding: 10px;
+        }
+    
   .odsadit {margin-left:5px}
   .odsadit2 {margin-left:15px}
   .posledni {margin-right:12px}
