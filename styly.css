@@ -119,12 +119,18 @@
             display: flex;
             overflow-x: auto; /* Allow horizontal scrolling if needed */
             white-space: nowrap; /* Prevent wrapping */
-        }       
+        }
         
+        .prvni img {
+            max-width: 100%; /* Ensure images don't exceed their parent container */
+            height: auto;
+            margin-right: 5px; /* Add spacing between images */
+        }
+    }
         .odsadit,
         .odsadit2 {
             max-width: 60px; /* Adjust the maximum width as needed */
-            max-height: 60px;  
+            height: auto;  
        
     
   .posledni {margin-right:12px}
