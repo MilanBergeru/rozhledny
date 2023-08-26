@@ -45,7 +45,7 @@
                #Navigace {
 		       	flex-grow: 1; /* Roztáhne navigaci na plnou šířku prostoru */
   			padding-right: 20px; /* Odsazení mezi navigací a obsahem */
-			margin:0; padding:0; float:left; background-color:#FFFF99;margin-left:8px; margin-top:20px; }
+			background-color:#FFFF99;}
                                                       
                     /*        ladìní: snížení margin-top z pùvodních 42px* z Navig-ul vyndáno margin-left:15 px; */
     #Navigace ul{ margin:0; padding:0; list-style-type:none;  margin-top:20px}
