@@ -116,8 +116,15 @@
 
 .prvni {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Tady si můžete upravit šířku sloupců podle potřeby */
-  grid-gap: 10px; /* Volitelné - mezery mezi obrázky */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+/* Upravit styly pro mobilní zařízení */
+@media (max-width: 600px) {
+  .prvni {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
 }
 
         .odsadit,
