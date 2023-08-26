@@ -128,6 +128,9 @@
     justify-content: flex-start; /* Zarovnání doleva */
     overflow-x: auto;
   }
+.prvni img {
+  margin-left:10px 
+}
  }
   .odsadit {margin-left:5px}
   .odsadit2 {margin-left:15px}
