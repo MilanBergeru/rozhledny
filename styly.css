@@ -115,10 +115,18 @@
  strong {font-size:98%}
  
   /* Add responsive styles here */
+         /* Add responsive styles here */
         .prvni {
             display: flex;
-            overflow-x: auto; /* Allow horizontal scrolling if needed */
-            white-space: nowrap; /* Prevent wrapping */
+            justify-content: center;
+            gap: 10px;
+            overflow-x: auto; /* Add horizontal scroll if necessary */
+        }
+
+        .odsadit,
+        .odsadit2 {
+            max-width: 100%;
+            height: auto;
         }
         
         .prvni img {
