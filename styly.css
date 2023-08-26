@@ -136,6 +136,10 @@ width: 120px;
   .odsadit {margin-left:5px}
   .odsadit2 {margin-left:15px}
   .posledni {margin-right:12px}
+
+* {
+  outline: 1px solid red;
+}
                                  /*
   @media screen and (max-width: 768px) { #Obal {width: 760px;}    
                                          #Obal-kraj {width: 760px;}    
