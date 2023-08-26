@@ -127,20 +127,10 @@
     
   .posledni {margin-right:12px}
                                  /*
-  @media screen and (max-width: 768px) { #Obal {width: 760px;}    
-                                         #Obal-kraj {width: 760px;}    
-                                        #Zahlavi {width: 760px;}    
-                                         #Zahlavi-kraj {width: 760px;}    
-                                          #Hlavni{width: 760px;}    
-                                            #Zapati {width: 760px;}    
-                                             #Zahlavi {width: 760px;}    
-                                            #Obsah{width: 570px;}          }
-                                            
-  @media screen and (max-width: 600px) { #Obal {width: 592px;}    
-                                         #Obal-kraj {width: 592px;}    
-                                        #Zahlavi {width: 592px;}    
-                                         #Zahlavi-kraj {width: 592px;}    
-                                          #Hlavni{width: 592px;}    
-                                            #Zapati {width: 592px;}    
-                                             #Zahlavi {width: 592px;}    
-                                            #Obsah{width: 450px;}          }     */                                   
+ @media (max-width: 768px) {
+            .prvni {
+                flex-wrap: nowrap; /* Prevent wrapping on smaller screens */
+                overflow-x: auto; /* Add horizontal scroll if necessary */
+            }
+        }         }
+          }     */                                   
