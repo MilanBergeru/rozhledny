@@ -1,5 +1,5 @@
 
-     /* FF9966 = oranžovo-hnìdá = defaultní pro kraje*/  
+     /* FF9966 = oranžovo-hnědá = defaultní pro kraje*/  
               body {background-color:#FF9966; margin-left:15px; font-family:Arial;}
                                             
               h2 {font-family:Arial; font-weight: bold;  color:rgb(51,0,204); text-align:center; margin-top:25px; margin-bottom:35px;
@@ -23,7 +23,7 @@
               
         #text-kraj a:hover {background-color:blue; color:white;  } 
               
-               h3 {padding: 25px 0 0 0; font-size:150%;color:rgb(102,0,255); margin-left:15px; letter-spacing:3px; word-spacing:2px; text-align: center; margin-bottom:-15px} 
+              h3 {padding: 25px 0 0 0; font-size:150%;color:rgb(102,0,255); margin:0; margin-top:15px; margin-left:15px; letter-spacing:3px; word-spacing:2px; text-align: center; margin-bottom:5px}
                
   em {font-size:95%; margin-left:15px; font-style:italic;  }
   
@@ -37,32 +37,31 @@
                                   /* FF6699 = broskvová horní */
                #Zahlavi{width:100%; height:360px; background-color:#FF6699; padding:0; padding-bottom:10px           }
                
-               /* tmavì rùžový proužek v záhlaví krajù */
+               /* tmavě růžový proužek v záhlaví krajů */
         #Zahlavi-kraj{width:104%; margin-left:-20px; height:200px; background-color:rgb(224,112,127)}
                
                /*FFFF99 = béžová */
                #Hlavni{width:100%; float:left; background-color:#FFFF99;}
-               #Navigace{margin:0; padding:0; float:left; background-color:#FFFF99;margin-left:8px;}
+               #Navigace{margin:0; padding:0; float:left; background-color:#FFFF99;margin-left:8px; margin-top:20px; }
                                                       
-                    /*        ladìní: snížení margin-top z pùvodních 42px* z Navig-ul vyndáno margin-left:15 px; */
-    #Navigace ul{ margin:0; padding:0; list-style-type:none;  margin-top:0}
+                    /*        ladění: snížení margin-top z původních 42px* z Navig-ul vyndáno margin-left:15 px; */
+    #Navigace ul{ margin:0; padding:0; list-style-type:none;  margin-top:20px}
     
-    /* width udává šíøku rámeèku, FFCC66 je okrová pro lištu */
+    /* width udává šířku rámečku, FFCC66 je okrová pro lištu */
 #Navigace li {	margin: 0;     	padding: 0;    	padding-left: 10px;        	margin-left: 20px;    	background-color: #FFCC66;   	border: solid black;   	border-width: 1px 1px 0px 1px;      	padding: 6px 0px 5px 6px;    	font-family: "Arial";   	text-align: left;              	width: 216px;       }
 
 #Navigace li.odkaz {    	padding-left: 15px;   	padding-right: 5px  }
 
-                     /* dìlení Žilinského kraje */
+                     /* dělení Žilinského kraje */
 #Navigace li.odkaz2 {        	padding-left: 15px;    	padding-right: 5px;       	color: blue  }
                       
 #Navigace li.soucet { 	color: rgb(0,0,102);    	font-weight: bold;    	letter-spacing: 1px;
-	font-size: 99%;      	padding-left: 15px;     	width: 221px;           }
+	font-size: 99%;      	padding-left: 15px;     	width: 221px;   }
   
 #Navigace li.soucet1 { 	border-bottom: 1px solid;   	color: rgb(0,0,102);    	font-weight: bold;
 	letter-spacing: 1px;   	font-size: 99%;       	padding-left: 10px;     	width: 226px;             }
   
-#Navigace li.Veze4 {  	font-weight: bold;   	color: rgb(0,0,102);    	letter-spacing: 4px;   	background-color: #FF6699;      
-       	padding-left: 15px;    	padding-right: 10px;       	width: 211px;      	text-align: center;       }
+#Navigace li.Veze4 {  	font-weight: bold;   	color: rgb(0,0,102);    	letter-spacing: 4px;   	background-color: #FF6699;   padding-left: 15px;    	padding-right: 10px;       	width: 211px;      	text-align: center;       }
         
 #Navigace  li.Veze6 {       	font-weight: bold;       	color: rgb(0,0,102);     	letter-spacing: 7px;                          
        	background-color: #FF6699;  	padding-left: 15px;   	padding-right: 10px; 	width: 211px;    	text-align: center;  }
@@ -71,12 +70,12 @@
 
 #Navigace a {	color: blue;         	font-size: 99%;         	font-weight: bold;     	text-decoration: none;
 	display: block;    	height: 20px;              	padding-right: 5px    }
-/* ladìní - height:pùvodnì 100%, tohle funguje                 width 220 px (pùvodnì  200)*/
+/* ladění - height:původně 100%, tohle funguje                 width 220 px (původně  200)*/
 
 #Navigace a:hover {      	background-color: #FF3366;     	color: white;  }
                
               #Obsah{width:75%; margin:15px 30px 0px 255px; background-color:#FFFF99}     
-                /* horní - pravý - spodní - levý ladìní - procentní šíøka 75 % se zobrazila pouze v Exploreru, proto zmìnìno na pevnou šíøku 720 px*/
+                /* horní - pravý - spodní - levý ladění - procentní šířka 75 % se zobrazila pouze v Exploreru, proto změněno na pevnou šířku 720 px*/
                #Zapati{width:108%;background-color:#FF6699;float:left;text-align:center;padding-top:8px;padding-bottom:15px; margin-bottom:0px}
                
                #Zahlavi .spodni-lista {  	text-align: center;     	font-weight: bold;   	letter-spacing: 2px;   	font-size: 125%;   	color: rgb(0,0,102);   	padding: 0;         	margin: 0;      	padding-bottom: 30px; }
@@ -95,7 +94,7 @@
                
                .neobtekat1{clear:both; margin-left:15px; margin-top:-10px; font-size:94%; font-style:italic}           
                                
-                /* rozteèe odshora, odspoda mám upraveny v Prešovském */
+                /* rozteče odshora, odspoda mám upraveny v Prešovském */
      #obrazek-hlavni img{float:left; margin:0; margin:  0 45px 15px 15px; padding:0; padding-top:7px;       }
                                                               
      #obrazek-hlavni-zprava img{float:right; margin-left:45px; margin-bottom:22px; margin-right:120px; padding-bottom:2px;}
@@ -112,40 +111,10 @@
  
  strong {font-size:98%}
  
-  .prvni {
-  display: flex;
-  justify-content: center; /* Zarovnání na střed */ 
-}
-
-.prvni img {
-  flex-shrink: 0;
-width: 120px;
-  height: auto;
-}
-
-/* Upravit styly pro mobilní zařízení */
-@media (max-width: 600px) {
-  .prvni {
-    justify-content: flex-start; /* Zarovnání doleva */
-    overflow-x: auto;
-  }
-.prvni img {
-  margin-left:10px 
-}
- } 
+  .prvni {text-align:center}
   .odsadit {margin-left:5px}
   .odsadit2 {margin-left:15px}
   .posledni {margin-right:12px}
-
-.dole {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding: 20px;
-	}
-
-
                                  /*
   @media screen and (max-width: 768px) { #Obal {width: 760px;}    
                                          #Obal-kraj {width: 760px;}    
