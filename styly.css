@@ -111,7 +111,17 @@
  
  strong {font-size:98%}
  
-  .prvni {text-align:center}
+   .prvni {
+  display: flex;
+  justify-content: center; /* Zarovnání na støed */     }  
+  
+
+/* Upravit styly pro mobilní zaøízení */
+@media (max-width: 600px) {
+  .prvni {
+    justify-content: flex-start; /* Zarovnání doleva */
+    overflow-x: auto;
+  }
   .odsadit {margin-left:5px}
   .odsadit2 {margin-left:15px}
   .posledni {margin-right:12px}
