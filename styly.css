@@ -113,7 +113,11 @@
  
    .prvni {
   display: flex;
-  justify-content: center; /* Zarovnání na støed */     }  
+  justify-content: center; /* Zarovnání na støed */     }
+
+.prvni img {
+  flex-shrink: 0;
+margin: auto; }
   
 
 /* Upravit styly pro mobilní zaøízení */
